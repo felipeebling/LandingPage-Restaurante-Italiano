@@ -342,4 +342,17 @@ h3 {
   .form-reserva label, .form-reserva .botao { width: 100%; }
   .galeria { flex-wrap: wrap; }
   .galeria img { width: calc(50% - 6px); }
+
+  .centralizar-mobile {
+    text-align: center;
+  }
+
+  .centralizar-mobile .cartoes div {
+    text-align: center;
+  }
+
+  .centralizar-mobile .lista-cardapio ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
 }
